@@ -84,7 +84,7 @@ function git_prompt_config()
   # local Time12a="(\$(date +%H:%M:%S))"
   # local Time12a="(\@))"
   local PathShort="\w"
-  local userSeparator='\$'
+  local userSeparator=' \$ '
 
   if [ "x${GIT_PROMPT_START}" == "x" ]; then
     PROMPT_START="${Green}${PathShort}${ResetColor}"
